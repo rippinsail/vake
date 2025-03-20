@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vake"
+version = "0.1.0"
+description = ""
+authors = ["rippinsail"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyproj = "^3.7.1"
+pdfplumber = "^0.11.5"
+folium = "^0.19.5"
+gpxpy = "^1.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
